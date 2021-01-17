@@ -1,0 +1,54 @@
+.team {
+  background-color: var(--section-background-color);
+  padding-top: 82px;
+  padding-bottom: 106px;
+  & .container {
+    text-align: center;
+  }
+  &-list {
+    display: flex;
+  }
+  &-people {
+    background-color: var(--pictures-background-color);
+    /* material shadow v1 */
+
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+      0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+  }
+  &-people:not(:last-child) {
+    margin-right: 30px;
+  }
+  &-title {
+    font-family: 'Roboto', sans-serif;
+    @include font(36px, 700, 42px);
+    letter-spacing: 0.03em;
+
+    color: var(--primery-text-color);
+    display: inline-block;
+    min-width: 264px;
+    margin-bottom: 50px;
+  }
+  &-employee {
+    font-family: 'Roboto', sans-serif;
+    @include font(16px, 500, 19px);
+    /* identical to box height */
+
+    letter-spacing: 0.03em;
+    color: var(--primery-text-color);
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+  &-profession {
+    font-family: Roboto;
+    @include font(16px, 400, 19px);
+    /* identical to box height */
+
+    letter-spacing: 0.03em;
+
+    color: var(--secondary-text-color);
+    text-align: center;
+    margin-bottom: 16px;
+  }
+}

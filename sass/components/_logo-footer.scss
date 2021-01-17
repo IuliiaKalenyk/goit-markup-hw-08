@@ -1,0 +1,17 @@
+.footer-logotype {
+  font-family: 'Raleway', sans-serif;
+  @include font(26px, 700, 31px);
+  /* identical to box height */
+
+  letter-spacing: 0.03em;
+
+  color: var(--accent-color-footer);
+  transition: color 250ms var(--timing-function);
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
+}
+.footer-logo {
+  margin-bottom: 20px;
+}

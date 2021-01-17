@@ -1,0 +1,125 @@
+.header {
+  padding-top: 24px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #cccccc;
+  & .container {
+    display: flex;
+    align-items: center;
+  }
+  &-nav {
+    display: flex;
+    align-items: center;
+  }
+  & .logotype {
+    margin-right: 93px;
+  }
+  &-mail,
+  &-tel {
+    font-family: 'Roboto', sans-serif;
+    @include font(14px, 500, 16px);
+    letter-spacing: 0.02em;
+    color: var(--secondary-text-color);
+    fill: var(--secondary-text-color);
+    display: flex;
+    align-items: center;
+    transition: color 250ms var(--timing-function);
+  }
+  &-mail:hover,
+  &-mail:focus,
+  &-mail:active {
+    color: var(--accent-color);
+  }
+  &-tel:hover,
+  &-tel:focus,
+  &-tel:active {
+    color: var(--accent-color);
+  }
+}
+.menu-nav {
+  display: flex;
+  align-items: center;
+}
+.address {
+  display: flex;
+  margin-left: 305px;
+  &-item {
+    display: flex;
+    align-items: center;
+  }
+  &-contacts {
+    display: flex;
+  }
+}
+
+.address-item .addres-contacts + .addres-contacts {
+  margin-left: 30px;
+}
+
+.menu-nav-item {
+  position: relative;
+  &:not(:last-child) {
+    margin-right: 50px;
+  }
+}
+
+.menu-nav-link-studio,
+.menu-nav-link-portfolio,
+.menu-nav-link-contacts {
+  font-family: 'Roboto', sans-serif;
+  @include font(14px, 500, 16px);
+  letter-spacing: 0.02em;
+  color: var(--primery-text-color);
+  padding-top: 32px;
+  padding-bottom: 32px;
+  position: relative;
+  transition: color 250ms var(--timing-function);
+}
+.menu-nav-link-studio:hover,
+.menu-nav-link-studio:focus,
+.menu-nav-link-studio:active {
+  color: var(--accent-color);
+}
+.menu-nav-link-portfolio:hover,
+.menu-nav-link-portfolio:focus,
+.menu-nav-link-portfolio:active {
+  color: var(--accent-color);
+}
+.menu-nav-link-contacts:hover,
+.menu-nav-link-contacts:focus,
+.menu-nav-link-contacts:active {
+  color: var(--accent-color);
+}
+.current {
+  color: var(--accent-color);
+  &::after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 4px;
+    background-color: var(--accent-color);
+    left: 0;
+    bottom: 0;
+    border-radius: 2px;
+  }
+}
+.button-icon-mailto {
+  display: flex;
+  margin-right: 10px;
+  fill: currentColor;
+  &:hover,
+  &:focus,
+  &:active {
+    fill: var(--accent-color);
+  }
+}
+.button-icon-tel {
+  display: flex;
+  margin-right: 10px;
+  fill: currentColor;
+  &:hover,
+  &:focus,
+  &:active {
+    fill: var(--accent-color);
+  }
+}

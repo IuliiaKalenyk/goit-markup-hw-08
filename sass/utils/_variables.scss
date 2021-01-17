@@ -1,0 +1,37 @@
+/* цвет основного текста #212121 */
+/* цвет вторичного текста #757575 */
+/* цвет акцента  #2196F3 */
+/* цвет логотипа в хедере #000000 */
+/* цвет логотипа в футере #FFFFFF */
+/* цвет акцента в футере #FFFFFF */
+/* цвет адреса в футере rgba(255, 255, 255, 0.6)*/
+/* цвет тени кнопки в герои rgba(0, 0, 0, 0.15)*/
+/* цвет кнопок в портфолио #f5f4fa */
+
+:root {
+  --primery-text-color: #212121;
+  --secondary-text-color: #757575;
+  --accent-color: #2196f3;
+  --logo-color-heder: #000000;
+  --logo-color-footer: #ffffff;
+  --hero-color-title: #ffffff;
+  --button-color-title: #ffffff;
+  --accent-color-footer: #ffffff;
+  --address-color-footer: rgba(255, 255, 255, 0.6);
+  --primery-background-color: #ffffff;
+  --section-background-color: #f5f4fa;
+  --hero-background-color: #2f303a;
+  --button-background-color: #2196f3;
+  --footer-background-color: #2f303a;
+  --button-color-shadow: rgba(0, 0, 0, 0.15);
+  --button-background-color-portfolio: #f5f4fa;
+  --border-color-pictures: #eeeeee;
+  --pictures-background-color: #ffffff;
+  --icon-background-color: #2196f3;
+  --icon-fill: #afb1b8;
+  --icon-hover-fill: #ffffff;
+  --icon-footer-background-color: rgba(255, 255, 255, 0.1);
+  --icon-footer-fill: #ffffff;
+  --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  --occupation-img-title: #ffffff;
+}

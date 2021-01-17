@@ -1,0 +1,44 @@
+.occupation {
+  padding-bottom: 94px;
+  &-title {
+    font-family: 'Roboto', sans-serif;
+    @include font(36px, 700, 42px);
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: var(--primery-text-color);
+    display: inline-block;
+    min-width: 377px;
+    margin-bottom: 50px;
+  }
+  & .container {
+    text-align: center;
+  }
+  &-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  &-studios:not(:last-child) {
+    margin-right: 30px;
+  }
+  &-studios {
+    position: relative;
+  }
+  &-img-title {
+    display: block;
+    width: 100%;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+
+    font-family: 'Roboto', sans-serif;
+    @include font(14px, 700, 16px);
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    padding: 27px 0;
+
+    color: var(--occupation-img-title);
+    background-color: rgba(47, 48, 58, 0.8);
+  }
+}
