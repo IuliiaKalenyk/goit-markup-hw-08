@@ -281,7 +281,7 @@ img {
     padding-top: 118px;
     padding-bottom: 118px;
     background-color: var(--hero-background-color);
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../../images/hero/hero-1x.jpg");
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/hero/hero-1x.jpg");
     background-repeat: no-repeat;
     background-position: cover;
     background-size: 480px 400px;
@@ -290,7 +290,7 @@ img {
 
 @media screen and (min-width: 320px) and (max-width: 767px) and (min-device-pixel-ratio: 2) and (min-width: 320px), screen and (min-width: 320px) and (max-width: 767px) and (min-resolution: 192dpi) and (min-width: 320px), screen and (min-width: 320px) and (max-width: 767px) and (min-resolution: 2dppx) and (min-width: 320px) {
   .hero {
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../../images/hero/hero-2x.jpg");
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/hero/hero-2x.jpg");
   }
 }
 
@@ -299,7 +299,7 @@ img {
     padding-top: 118px;
     padding-bottom: 118px;
     background-color: var(--hero-background-color);
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../../images/hero/hero_tablet-1x.jpg");
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/hero/hero_tablet-1x.jpg");
     background-repeat: no-repeat;
     background-position: cover;
     background-size: 768px 400px;
@@ -308,7 +308,7 @@ img {
 
 @media screen and (min-width: 768px) and (min-device-pixel-ratio: 2) and (min-width: 768px), screen and (min-width: 768px) and (min-resolution: 192dpi) and (min-width: 768px), screen and (min-width: 768px) and (min-resolution: 2dppx) and (min-width: 768px) {
   .hero {
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../../images/hero/hero_tablet-2x.jpg");
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/hero/hero_tablet-2x.jpg");
   }
 }
 
@@ -317,7 +317,7 @@ img {
     padding-top: 200px;
     padding-bottom: 200px;
     background-color: var(--hero-background-color);
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../../images/hero/hero_desk-1x.jpg");
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/hero/hero_desk-1x.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: 1600px 600px;
@@ -338,7 +338,7 @@ img {
 
 @media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2) and (min-width: 1200px), screen and (min-width: 1200px) and (min-resolution: 192dpi) and (min-width: 1200px), screen and (min-width: 1200px) and (min-resolution: 2dppx) and (min-width: 1200px) {
   .hero {
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../../images/hero/hero_desk-2x.jpg");
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/hero/hero_desk-2x.jpg");
   }
 }
 
@@ -476,60 +476,6 @@ img {
   .features-information {
     width: 270px;
     height: 75px;
-  }
-}
-
-@media screen and (min-width: 320px) and (max-width: 768px) {
-  .occupation {
-    display: none;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .occupation {
-    padding-bottom: 94px;
-  }
-  .occupation-title {
-    font-family: 'Roboto', sans-serif;
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 1.167;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: var(--primery-text-color);
-    display: inline-block;
-    min-width: 377px;
-    margin-bottom: 50px;
-  }
-  .occupation .container {
-    text-align: center;
-  }
-  .occupation-list {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  .occupation-studios:not(:last-child) {
-    margin-right: 30px;
-  }
-  .occupation-studios {
-    position: relative;
-  }
-  .occupation-img-title {
-    display: block;
-    width: 100%;
-    justify-content: center;
-    position: absolute;
-    bottom: 0;
-    font-family: 'Roboto', sans-serif;
-    font-size: 14px;
-    font-weight: 700;
-    line-height: 1.143;
-    text-align: center;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    padding: 27px 0;
-    color: var(--occupation-img-title);
-    background-color: rgba(47, 48, 58, 0.8);
   }
 }
 
