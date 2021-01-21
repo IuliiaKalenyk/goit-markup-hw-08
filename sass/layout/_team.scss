@@ -24,6 +24,28 @@
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
+.team-employee {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 10px;
+
+  font-family: 'Roboto', sans-serif;
+  @include font(16px, 500, 19px);
+
+  letter-spacing: 0.03em;
+  color: var(--primery-text-color);
+}
+.team-profession {
+  margin-bottom: 16px;
+  text-align: center;
+
+  font-family: Roboto;
+  @include font(16px, 400, 19px);
+  letter-spacing: 0.03em;
+
+  color: var(--secondary-text-color);
+}
+
 /* .team {
   background-color: var(--section-background-color);
   padding-top: 82px;
