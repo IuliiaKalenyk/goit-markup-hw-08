@@ -1,5 +1,31 @@
 .team {
   background-color: var(--section-background-color);
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.team-title {
+  display: block;
+  margin: 0 auto;
+  width: 206px;
+  height: 33px;
+
+  font-family: 'Roboto', sans-serif;
+  @include font(28px, 700, 33px);
+  letter-spacing: 0.03em;
+
+  color: var(--primery-text-color);
+
+  margin-bottom: 30px;
+}
+.team-people {
+  background-color: var(--pictures-background-color);
+
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+/* .team {
+  background-color: var(--section-background-color);
   padding-top: 82px;
   padding-bottom: 106px;
   & .container {
@@ -10,7 +36,7 @@
   }
   &-people {
     background-color: var(--pictures-background-color);
-    /* material shadow v1 */
+    
 
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
       0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -32,7 +58,7 @@
   &-employee {
     font-family: 'Roboto', sans-serif;
     @include font(16px, 500, 19px);
-    /* identical to box height */
+   
 
     letter-spacing: 0.03em;
     color: var(--primery-text-color);
@@ -43,12 +69,11 @@
   &-profession {
     font-family: Roboto;
     @include font(16px, 400, 19px);
-    /* identical to box height */
-
+    
     letter-spacing: 0.03em;
 
     color: var(--secondary-text-color);
     text-align: center;
     margin-bottom: 16px;
   }
-}
+} */
