@@ -1,6 +1,7 @@
 .footer-social-networks {
   display: flex;
   width: 206px;
+  margin: 0 auto;
   justify-content: space-between;
   &-link {
     display: flex;
@@ -24,4 +25,33 @@
 .footer-isocial-networks-icon {
   fill: var(--icon-footer-fill);
   transition: fill 250ms var(--timing-function);
+}
+@media screen and (min-width: 1200px) {
+  .footer-social-networks {
+    display: flex;
+    width: 206px;
+    justify-content: space-between;
+    &-link {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
+      background-color: var(--icon-footer-background-color);
+      transition: background-color 250ms var(--timing-function);
+      &:hover .footer-isocial-networks-icon,
+      &:focus .footer-isocial-networks-icon {
+        fill: var(--icon-hover-fill);
+      }
+    }
+    &-link:hover,
+    &-link:focus {
+      background-color: var(--icon-background-color);
+    }
+  }
+  .footer-isocial-networks-icon {
+    fill: var(--icon-footer-fill);
+    transition: fill 250ms var(--timing-function);
+  }
 }
