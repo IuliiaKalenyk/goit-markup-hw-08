@@ -97,6 +97,34 @@
     margin-bottom: 20px;
   }
 }
+@media screen and (min-width: 1200px) {
+  .footer .container {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+  }
+  .footer-contacts {
+    margin-left: 0;
+    margin-bottom: 0;
+    margin-right: 70px;
+  }
+  .footer-item {
+    text-align: left;
+  }
+  .footer-icon {
+    margin-right: 0;
+  }
+  .footer-form-information {
+    display: flex;
+  }
+  .footer-form-title {
+    text-align: left;
+  }
+  .footer-form-input {
+    width: 354px;
+    margin-right: 12px;
+  }
+}
 
 /* .footer {
   background-color: var(--footer-background-color);
