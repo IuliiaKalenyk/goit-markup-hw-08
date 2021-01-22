@@ -633,30 +633,30 @@ img {
 }
 
 .regular-customers {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .regular-customers-title {
   font-family: 'Roboto', sans-serif;
-  font-size: 36px;
+  font-size: 28px;
   font-weight: 700;
-  line-height: 1.167;
+  line-height: 1.179;
   letter-spacing: 0.03em;
   color: var(--primery-text-color);
-  display: block;
   text-align: center;
 }
 
 .companies {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 
 .company-names-link {
   display: flex;
   background-color: var(--primery-background-color);
-  width: 170px;
+  width: 210px;
   height: 90px;
   border-radius: 1px;
   border: #afb1b8 solid 1px;
@@ -675,7 +675,7 @@ img {
 }
 
 .company-names {
-  margin-top: 50px;
+  margin-top: 30px;
 }
 
 .company-names-icon {
@@ -683,6 +683,78 @@ img {
   transition: fill 250ms var(--timing-function);
 }
 
+@media screen and (min-width: 768px) {
+  .company-names-link {
+    width: 226px;
+    height: 90px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .regular-customers {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+  .regular-customers-title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.167;
+    letter-spacing: 0.03em;
+  }
+  .company-names-link {
+    width: 170px;
+    height: 90px;
+  }
+  .company-names {
+    margin-top: 50px;
+  }
+}
+
+/* .regular-customers {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  &-title {
+    font-family: 'Roboto', sans-serif;
+    @include font(36px, 700, 42px);
+    letter-spacing: 0.03em;
+
+    color: var(--primery-text-color);
+
+    display: block;
+    text-align: center;
+  }
+}
+.companies {
+  display: flex;
+  justify-content: space-between;
+}
+.company-names-link {
+  display: flex;
+  background-color: var(--primery-background-color);
+  width: 170px;
+  height: 90px;
+  border-radius: 1px;
+  border: #afb1b8 solid 1px;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 250ms var(--timing-function);
+  &:hover .company-names-icon,
+  &:focus .company-names-icon {
+    fill: var(--accent-color);
+  }
+  &:hover,
+  &:focus {
+    border-color: var(--accent-color);
+  }
+}
+.company-names {
+  margin-top: 50px;
+  &-icon {
+    fill: #afb1b8;
+    transition: fill 250ms var(--timing-function);
+  }
+} */
 .footer {
   background-color: var(--footer-background-color);
   padding-top: 60px;
