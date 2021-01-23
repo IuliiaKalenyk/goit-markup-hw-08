@@ -1,0 +1,17 @@
+.header-menu-button {
+  display: inline-flex;
+  margin: 0;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  margin-left: 276px;
+}
+.header-menu-button .menu-icon-close {
+  display: none;
+}
+.header-menu-button .is-open .menu-icon-close {
+  display: block;
+}
+.header-menu-button .is-open .menu-icon-menu {
+  display: none;
+}

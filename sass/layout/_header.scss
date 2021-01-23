@@ -9,6 +9,10 @@
     padding: 16px 0;
     border-bottom: 1px solid #cccccc;
   }
+  .header-nav {
+    display: flex;
+    align-items: center;
+  }
 }
 @media screen and (min-width: 768px) {
   .header {
