@@ -53,6 +53,10 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+body.modal-open {
+  overflow: hidden;
+}
+
 .list {
   list-style: none;
 }

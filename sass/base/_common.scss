@@ -3,6 +3,9 @@ body {
   background-color: var(--primery-background-color);
   font-family: 'Roboto', sans-serif;
 }
+body.modal-open {
+  overflow: hidden;
+}
 .list {
   list-style: none;
 }
