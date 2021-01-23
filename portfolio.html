@@ -19,33 +19,45 @@
         <div class="container">
             <nav class="header-nav">
                 <p class="logo-item ">
-                    <a class="logotype link" href="./index.html" aria-label="логотип сайта" lang="en"><span
+                    <a class="logotype link" href="/index.html" aria-label="логотип сайта" lang="en"><span
                             class="logotype-text">Web</span>Studio</a>
                 </p>
-                <ul class="menu-nav list">
-                    <li class="menu-nav-item"><a class="menu-nav-link-studio link" href="./index.html">Студия</a></li>
-                    <li class="menu-nav-item"><a class="menu-nav-link-portfolio link current" href="./portfolio.html">Портфолио</a>
-                    </li>
-                    <li class="menu-nav-item"><a class="menu-nav-link-contacts link" href="">Контакты</a></li>
-                </ul>
+                <button type="button" class="header-menu-button is-open" aria-expanded="false"
+                    aria-controls="menu-container" data-menu-button>
+                    <svg width="40" height="40" aria-label="Переключатель мобильного меню">
+                        <use class="menu-icon-close" href="./images/sprite-header_8.svg#icon-close_40px"></use>
+                        <use class="menu-icon-menu" href="./images/sprite-header_8.svg#icon-menu_40px"></use>
+                    </svg>
+                </button>
+                <div class="menu-container is-open" id="menu-container" data-menu>
     
-                <address class="address">
-                    <ul class="address-item list">
-                        <li class="addres-contacts">
-                            <a class="header-mail link" href="mailto:info@devstudio.com">
-                                <svg class="button-icon-mailto" width="16" height="12">
-                                    <use href="./images/sprite.svg#icon-envelope"></use>
-                                </svg>info@devstudio.com</a>
-                        </li>
-                        <li class="addres-contacts">
-                            <a class="header-tel link" href="tel:+380961111111">
-                                <svg class="button-icon-tel" width="10" height="16">
-                                    <use href="./images/sprite.svg#icon-smartphone"></use>
-                                </svg>
-                                +38 096 111 11 11</a>
-                        </li>
+                    <ul class="menu-nav list">
+                        <li class="menu-nav-item"><a class="menu-nav-link-studio link current"
+                                href="./index.html">Студия</a></li>
+                        <li class="menu-nav-item"><a class="menu-nav-link-portfolio link"
+                                href="./portfolio.html">Портфолио</a></li>
+                        <li class="menu-nav-item"><a class="menu-nav-link-contacts link" href="">Контакты</a></li>
                     </ul>
-                </address>
+                    <div class="address-grup">
+                        <address class="address">
+                            <ul class="address-item list">
+                                <li class="addres-contacts">
+                                    <a class="header-mail link" href="mailto:info@devstudio.com">
+                                        <svg class="button-icon-mailto" width="16" height="12">
+                                            <use href="./images/sprite.svg#icon-envelope"></use>
+                                        </svg>info@devstudio.com</a>
+                                </li>
+                                <li class="addres-contacts">
+                                    <a class="header-tel link" href="tel:+380961111111">
+                                        <svg class="button-icon-tel" width="10" height="16">
+                                            <use href="./images/sprite.svg#icon-smartphone"></use>
+                                        </svg>
+                                        +38 096 111 11 11</a>
+                                </li>
+                            </ul>
+                        </address>
+                    </div>
+                </div>
             </nav>
         </div>
     </header>
@@ -388,6 +400,7 @@
             </div>
         </div>
     </footer>
+    <script src="./js/menu.js"></script>
 </body>
 
 </html>
