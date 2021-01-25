@@ -945,6 +945,9 @@ img {
   .footer-icon {
     margin-right: 0;
   }
+  .footer-title {
+    text-align: left;
+  }
   .footer-form-information {
     display: flex;
   }
@@ -1277,6 +1280,9 @@ img {
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 2px 4px rgba(0, 0, 0, 0.08), 0px 1px 3px rgba(0, 0, 0, 0.16);
     padding: 60px;
     text-align: center;
+  }
+  .menu-container.is-open {
+    display: block;
   }
   .menu-container.is-open {
     display: block;
